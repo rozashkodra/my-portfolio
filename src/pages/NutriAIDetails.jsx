@@ -44,9 +44,16 @@ export default function NutriAIDetails() {
       <section className="detail-section">
         <h2 className="detail-section-title">Interactive Demo</h2>
         <div className="detail-video-container">
-          <video controls src="/NutriAI.mp4">
-            Your browser does not support the video tag.
-          </video>
+          <iframe
+            width="100%"
+            height="450"
+            src="https://www.youtube.com/embed/VXLFFaw6dhw?si=g2sNcxWDDUGfOGNs"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
         </div>
       </section>
 

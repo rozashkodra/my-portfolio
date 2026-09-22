@@ -48,12 +48,18 @@ export default function MathOlympiadDetails() {
       <section className="detail-section">
         <h2 className="detail-section-title">Interactive Demo</h2>
         <div className="detail-video-container">
-          <video controls src="/MathQuest.mp4">
-            Your browser does not support the video tag.
-          </video>
+          <iframe
+            width="100%"
+            height="450"
+            src="https://www.youtube-nocookie.com/embed/H92QxyO5ZtU?si=azqgcgNt1sdxrI8c"
+            title="MathQuest Video Demo"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
         </div>
       </section>
-
       {/* Overview */}
       <section className="detail-section">
         <h2 className="detail-section-title muted">Project Overview</h2>

@@ -48,9 +48,16 @@ export default function BudgetTransactionDetails() {
       <section className="detail-section">
         <h2 className="detail-section-title">Interactive Demo</h2>
         <div className="detail-video-container">
-          <video controls src="/SpendWise.mp4">
-            Your browser does not support the video tag.
-          </video>
+          <iframe
+            width="100%"
+            height="450"
+            src="https://www.youtube-nocookie.com/embed/7EOYaaRzqBE?si=SGdLK78bQxEI6vjS"
+            title="SpendWise Video Demo"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
         </div>
       </section>
 
