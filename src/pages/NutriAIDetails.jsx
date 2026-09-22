@@ -110,20 +110,40 @@ export default function NutriAIDetails() {
         <h2 className="detail-section-title">Key Features</h2>
         <ul className="detail-list">
           <li>
-            <b>Automated Recipe Suggestions:</b> Generates customized meal plans
-            based on individual dietary requirements.
+            <b>User Authentication:</b> Secure registration and login using JWT
+            authentication.
           </li>
           <li>
-            <b>Nutritional Breakdown Calculations:</b> Calculates macro and
-            micro targets in real-time.
+            <b>Recipe Search:</b> Search and explore a wide range of recipes
+            using the Spoonacular API.
           </li>
           <li>
-            <b>Secure Authentication:</b> Password hashing and JWT-based user
-            session handling.
+            <b>Nutritional Information:</b> View calories, protein,
+            carbohydrates, fats, and other nutritional details for recipes.
           </li>
           <li>
-            <b>Interactive Dashboard:</b> Clean layout tracking daily intake
-            against set goals.
+            <b>Nutrition Calculator:</b> Calculate estimated daily calorie and
+            macronutrient requirements.
+          </li>
+          <li>
+            <b>Saved Recipes:</b> Save favorite recipes for quick and easy
+            access.
+          </li>
+          <li>
+            <b>Weekly Meal Planner:</b> Organize meals by day and meal category
+            for structured weekly planning.
+          </li>
+          <li>
+            <b>PCOS Nutrition:</b> Dedicated section with information and
+            nutrition-related recommendations for PCOS.
+          </li>
+          <li>
+            <b>Responsive Design:</b> Responsive and user-friendly interface
+            built with React, Tailwind CSS, and DaisyUI.
+          </li>
+          <li>
+            <b>Contact Form:</b> Allows users to submit messages through the
+            application.
           </li>
         </ul>
       </section>
