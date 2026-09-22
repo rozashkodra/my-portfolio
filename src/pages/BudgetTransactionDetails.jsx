@@ -50,7 +50,7 @@ export default function BudgetTransactionDetails() {
         <div className="detail-video-container">
           <iframe
             width="100%"
-            height="450"
+            height="100%"
             src="https://www.youtube-nocookie.com/embed/7EOYaaRzqBE?si=SGdLK78bQxEI6vjS"
             title="SpendWise Video Demo"
             frameBorder="0"

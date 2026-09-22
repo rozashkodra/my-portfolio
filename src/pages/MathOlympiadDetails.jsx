@@ -50,7 +50,7 @@ export default function MathOlympiadDetails() {
         <div className="detail-video-container">
           <iframe
             width="100%"
-            height="450"
+            height="100%"
             src="https://www.youtube-nocookie.com/embed/H92QxyO5ZtU?si=azqgcgNt1sdxrI8c"
             title="MathQuest Video Demo"
             frameBorder="0"

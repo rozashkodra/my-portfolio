@@ -41,7 +41,7 @@ export default function SkincareDetails() {
         <div className="detail-video-container">
           <iframe
             width="100%"
-            height="450"
+            height="100%"
             src="https://www.youtube.com/embed/1zSdjT0suhs?si=jYhUhyXgKxIFmkeD"
             title="YouTube video player"
             frameborder="0"

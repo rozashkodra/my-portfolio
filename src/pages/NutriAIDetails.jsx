@@ -46,7 +46,7 @@ export default function NutriAIDetails() {
         <div className="detail-video-container">
           <iframe
             width="100%"
-            height="450"
+            height="100%"
             src="https://www.youtube.com/embed/VXLFFaw6dhw?si=g2sNcxWDDUGfOGNs"
             title="YouTube video player"
             frameborder="0"
