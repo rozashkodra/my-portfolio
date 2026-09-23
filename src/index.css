@@ -293,6 +293,10 @@ section {
   font-size: 14px;
 }
 
+.project-link-btn{
+  color:#3f2c54
+}
+
 .project-link:hover {
   color: var(--eggplant);
 }
