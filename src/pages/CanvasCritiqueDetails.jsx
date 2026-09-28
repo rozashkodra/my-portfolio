@@ -77,15 +77,11 @@ export default function CanvasCritiqueDetails() {
         <p className="detail-text">
           Rather than digging through legacy folders or Git branches to compare
           historical iterations, PinPoint features a built-in Version Switcher:
-          Version 1 (v1.0 - Wireframes): Early black-and-white layout sketches
-          for agreeing on core page structure and UX flows. Version 2 (v2.0 -
-          High-Fidelity UI): Polished frontend designs featuring actual
-          typography, product grids, and branding elements. Version 3 (v3.0 -
-          Live Release Candidate): Fully integrated versions connected to live
-          APIs, databases, and functional elements. Benefit: Stakeholders can
-          instantly toggle between v1.0, v2.0, and v3.0 directly inside the
-          canvas to review how specific components (like a navigation bar)
-          evolved over time.Real-Time Pinned Commenting &
+          Version 1 (v1.0 - Wireframes), Version 2 (v2.0 - High-Fidelity UI),
+          Version 3 (v3.0 - Live Release Candidate). Benefit:
+          Stakeholders can instantly toggle between v1.0, v2.0, and v3.0
+          directly inside the canvas to review how specific components (like a
+          navigation bar) evolved over time.Real-Time Pinned Commenting &
           Collaboration.Contextual Feedback: Reviewers can click directly on
           mockups to drop precise pins and leave actionable feedback,nstant Sync
           via WebSockets: Powered by Socket.io, new comments and replies
@@ -110,6 +106,19 @@ export default function CanvasCritiqueDetails() {
           <li>
             Direct routing into a unified, all-in-one interactive canvas that
             bridges early design planning with active task management.
+          </li>
+          <li>
+            <b>Built-in Version Switcher:</b> Version 1 (v1.0 - Wireframes):
+            Early black-and-white layout sketches for agreeing on core page
+            structure and UX flows.
+          </li>
+          <li>
+            Version 2 (v2.0 - High-Fidelity UI): Polished frontend designs
+            featuring actual typography, product grids, and branding elements.
+          </li>
+          <li>
+            Version 3 (v3.0 - Live Release Candidate): Fully integrated versions
+            connected to live APIs, databases, and functional elements.
           </li>
           <li>
             <b>Contextual Pinned Commenting:</b> Enables reviewers and clients
