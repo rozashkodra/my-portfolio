@@ -49,7 +49,7 @@ export default function Projects() {
 
  {/* Canvas Critique */}
         <div className="project-card">
-          <h3>PinPoint Showcase</h3>
+          <h3>PinPoint Platform</h3>
           <p>
             A real-time collaborative workspace that centralizes design feedback
           by allowing teams to pin live, contextual comments directly onto
