@@ -47,6 +47,19 @@ export default function Projects() {
           </Link>
         </div>
 
+ {/* Canvas Critique */}
+        <div className="project-card">
+          <h3>PinPoint Showcase</h3>
+          <p>
+            A real-time collaborative workspace that centralizes design feedback
+          by allowing teams to pin live, contextual comments directly onto
+          mockups.
+          </p>
+          <Link to="/projects/canvasCritique" className="project-link-btn">
+            View Details →
+          </Link>
+        </div>
+
         {/* sckincare products */}
         <div className="project-card">
           <h3>SkinCare Showcase — Front-End Web Application</h3>
